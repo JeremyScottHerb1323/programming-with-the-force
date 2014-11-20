@@ -1,0 +1,37 @@
+/*========================*\
+         TEXT COLOR
+\*========================*/
+.grey {
+  color: #ccc; }
+
+.grey-dk {
+  color: #666; }
+
+.grey-lt {
+  color: #efefef; }
+
+.black {
+  color: #000; }
+
+.white {
+  color: #fff; }
+
+/*========================*\
+          BG COLOR
+\*========================*/
+.grey-bg {
+  background-color: #ccc; }
+
+.grey-dk-bg {
+  background-color: #666; }
+
+.grey-lt-bg {
+  background-color: #efefef; }
+
+.black-bg {
+  background-color: #000; }
+
+.white-bg {
+  background-color: #fff; }
+
+/*# sourceMappingURL=skins.css.map */

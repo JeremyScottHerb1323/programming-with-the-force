@@ -1,0 +1,23 @@
+/*======================================*\
+  This file is house UI elements
+  for your website or application. Items
+  that help the user use or navigate your
+  site/application
+
+  Examples:
+    - Navigation
+    - Logos, headers
+    - Dropdown menus
+\*======================================*/
+.opening {
+  margin-top: 15em;
+  color: #fff; }
+
+.sw-bg {
+  background: url(/images/ui/sw-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/*# sourceMappingURL=ui-elements.css.map */
