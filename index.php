@@ -30,6 +30,24 @@
   </li>
  </ul>
  </div>
- <?php render('tai-fight'); ?>
+ <div class="full cf">
+  <div id="ribbon" class="left one-quarter rebel cf">
+    <div class="inset"></div>
+    <div class="container">
+      <div class="base"></div>
+      <div class="left_corner"></div>
+      <div class="right_corner"></div>
+    </div>
+  </div>
+    <div id="ribbon" class="right one-quarter empire cf">
+    <div class="inset"></div>
+    <div class="container">
+      <div class="base"><img src="/images/icons/empire-150.png" alt="Empire"></div>
+      <div class="left_corner"></div>
+      <div class="right_corner"></div>
+    </div>
+  </div>
+    </div>
+ <?php render('tie-fight'); ?>
 
 <?php render('footer'); ?>
