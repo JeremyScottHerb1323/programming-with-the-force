@@ -19,8 +19,7 @@
   <header>
     <section>
       <div class="ta-center opening">
-        <h1>Programming With The Force</h1>
-        <p>My name, Jeremy Herb.. my profession, jedi mind fucking..</p>
+        <h1 class="sw-logo"><a href="/">Programming With The Force</a></h1>
       </div>
     </section>
   </header>

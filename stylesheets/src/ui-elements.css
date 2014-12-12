@@ -9,10 +9,6 @@
     - Logos, headers
     - Dropdown menus
 \*======================================*/
-.opening {
-  margin-top: 15em;
-  color: #fff; }
-
 .sw-bg {
   background: url(/images/ui/sw-bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -21,6 +17,15 @@
   background-size: cover; }
 
 .intro {
-  color: #fff; }
+  color: #fff;
+  margin-top: 15em; }
+  .intro .text-box {
+    margin-top: 12%;
+    width: 50%; }
+    .intro .text-box p {
+      font-size: 1.8em; }
+    .intro .text-box .t-heading {
+      font-family: "sw-heading";
+      font-size: 3.6em; }
 
 /*# sourceMappingURL=ui-elements.css.map */

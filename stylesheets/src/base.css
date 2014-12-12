@@ -44,9 +44,10 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 body {
+  color: #FFF;
   background-color: #000;
   font-size: 62.5%;
-  font-family: Arial, san-serif;
+  font-family: Georgia, san-serif;
   -webkit-animation: reset 1s ease 1;
   -moz-animation: reset 1s ease 1;
   -o-animation: reset 1s ease 1;

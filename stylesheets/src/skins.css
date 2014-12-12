@@ -34,4 +34,24 @@
 .white-bg {
   background-color: #fff; }
 
+@font-face {
+  font-family: "sw-logo";
+  src: url(/fonts/STJEDISE.ttf); }
+@font-face {
+  font-family: "sw-heading";
+  src: url(/fonts/Starjedi.ttf); }
+.sw-logo {
+  font-family: "sw-logo";
+  font-size: 6.6em;
+  text-shadow: -5px 10px rgba(3, 3, 3, 0.5); }
+  .sw-logo a {
+    color: #FFF;
+    text-decoration: none; }
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
 /*# sourceMappingURL=skins.css.map */
