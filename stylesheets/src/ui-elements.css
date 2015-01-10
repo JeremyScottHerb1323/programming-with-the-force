@@ -22,6 +22,9 @@
   .intro .text-box {
     margin-top: 12%;
     width: 50%; }
+    .intro .text-box.community {
+      width: 100%;
+      margin-bottom: 4em; }
     .intro .text-box p {
       font-size: 1.8em; }
     .intro .text-box .t-heading {

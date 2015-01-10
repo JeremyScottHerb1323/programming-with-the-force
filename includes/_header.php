@@ -11,6 +11,7 @@
   <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
   <?= get_stylesheets() ?>
+  <!-- <script type="text/javascript" src="/javascripts/vendor/jquery.scrollmagic.js"></script> -->
 </head>
 <body class="sw-bg">
   <!--[if lt IE 8]>

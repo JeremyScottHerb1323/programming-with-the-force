@@ -24,6 +24,10 @@
   .text-box { 
     margin-top: 12%; 
     width: 50%; 
+    &.community { 
+      width: 100%; 
+      margin-bottom: 4em;
+    }
     p { font-size: 1.8em; } 
     .t-heading {
       font-family: "sw-heading";
