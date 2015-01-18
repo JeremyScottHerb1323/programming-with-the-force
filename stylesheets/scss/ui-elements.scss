@@ -18,9 +18,9 @@
   background-size: cover;
 }
 
-.intro {
+.info-container {
   color: #fff;
-  margin-top: 15em;
+  min-height: 92em;
   .text-box { 
     margin-top: 12%; 
     width: 50%; 
@@ -35,3 +35,5 @@
     }
   }
 }
+
+.repo-content { min-height: 40em; }

@@ -16,19 +16,22 @@
   -o-background-size: cover;
   background-size: cover; }
 
-.intro {
+.info-container {
   color: #fff;
-  margin-top: 15em; }
-  .intro .text-box {
+  min-height: 92em; }
+  .info-container .text-box {
     margin-top: 12%;
     width: 50%; }
-    .intro .text-box.community {
+    .info-container .text-box.community {
       width: 100%;
       margin-bottom: 4em; }
-    .intro .text-box p {
+    .info-container .text-box p {
       font-size: 1.8em; }
-    .intro .text-box .t-heading {
+    .info-container .text-box .t-heading {
       font-family: "sw-heading";
       font-size: 3.6em; }
+
+.repo-content {
+  min-height: 40em; }
 
 /*# sourceMappingURL=ui-elements.css.map */

@@ -16,9 +16,5 @@
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-XXXXX-X');ga('send','pageview');
   </script>
-  <script type="text/javascript" src="/javascripts/vendor/skrollr.min.js"></script>
-    <script type="text/javascript">
-    var s = skrollr.init();
-    </script>
 </body>
 </html>
