@@ -53,14 +53,14 @@ update_html = (resp) ->
   current_repo = repo_list.items[num]
   console.log current_repo
   html_string = "
-  <h1><a href='#{current_repo.html_url}' target='_blank'>#{current_repo.name}</a></h1>
-  <ul>
-  <li>#{current_repo.created_at}</li>
-  <li><a href='#{current_repo.clone_url}' target='_blank'>Clone URL</a></li>
-  <li><a href='#{current_repo.git_url}' target='_blank'>Git URL</a></li>
-  <li><a href='#{current_repo.html_url}' target='_blank'>HTML URL</a></li>
-  </ul>
-  <div><p><li>#{current_repo.description}</p></div>
+    <h1><a href='#{current_repo.html_url}' target='_blank'>#{current_repo.name}</a></h1>
+    <ul>
+    <li>#{current_repo.created_at}</li>
+    <li><a href='#{current_repo.clone_url}' target='_blank'>Clone URL</a></li>
+    <li><a href='#{current_repo.git_url}' target='_blank'>Git URL</a></li>
+    <li><a href='#{current_repo.html_url}' target='_blank'>HTML URL</a></li>
+    </ul>
+    <div><p><li>#{current_repo.description}</p></div>
   "
   $('.repo-content').html html_string
   false
