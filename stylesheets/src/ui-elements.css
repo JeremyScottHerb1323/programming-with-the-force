@@ -31,7 +31,12 @@
       font-family: "sw-heading";
       font-size: 3.6em; }
 
-.repo-content {
-  min-height: 40em; }
+.git-stats-container ul {
+  width: 50%;
+  margin: 0 auto; }
+  .git-stats-container ul li {
+    float: left;
+    width: 24%;
+    padding: 22px 0 12px 54px; }
 
 /*# sourceMappingURL=ui-elements.css.map */

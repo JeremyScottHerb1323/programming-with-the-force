@@ -21,14 +21,14 @@
 .info-container {
   color: #fff;
   min-height: 92em;
-  .text-box { 
-    margin-top: 12%; 
-    width: 50%; 
-    &.community { 
-      width: 100%; 
+  .text-box {
+    margin-top: 12%;
+    width: 50%;
+    &.community {
+      width: 100%;
       margin-bottom: 4em;
     }
-    p { font-size: 1.8em; } 
+    p { font-size: 1.8em; }
     .t-heading {
       font-family: "sw-heading";
       font-size: 3.6em;
@@ -36,4 +36,14 @@
   }
 }
 
-.repo-content { min-height: 40em; }
+.git-stats-container {
+  ul{
+    width: 50%;
+    margin: 0 auto;
+    li {
+      float: left;
+      width: 24%;
+      padding: 22px 0 12px 54px;
+    }
+  }
+}

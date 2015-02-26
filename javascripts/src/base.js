@@ -29,7 +29,7 @@
     num = Math.floor(Math.random() * repo_list.items.length) + 1;
     current_repo = repo_list.items[num];
     console.log(current_repo);
-    html_string = "    <h1><a href='" + current_repo.html_url + "' target='_blank'>" + current_repo.name + "</a></h1>    <ul>    <li>" + current_repo.created_at + "</li>    <li><a href='" + current_repo.clone_url + "' target='_blank'>Clone URL</a></li>    <li><a href='" + current_repo.git_url + "' target='_blank'>Git URL</a></li>    <li><a href='" + current_repo.html_url + "' target='_blank'>HTML URL</a></li>    </ul>    <div><p><li>" + current_repo.description + "</p></div>  ";
+    html_string = "  <div class='git-stats-container'>    <h3><a href='" + current_repo.owner.html_url + "'>" + current_repo.owner.login + "</a> / <a href='" + current_repo.html_url + "'>" + current_repo.name + "</a></h3>    <p class='h4'>" + current_repo.description + "</p>    <ul class='clearfix'>      <li class='yoda with-icon-48'>Stars: " + current_repo.stargazers_count + "</li>      <li class='darth with-icon-48'>Forks: " + current_repo.forks_count + "</li>      <li class='chewie with-icon-48'>Watchers: " + current_repo.watchers + "</li>    </ul>  </div>  ";
     $('.repo-content').html(html_string);
     return false;
   };
