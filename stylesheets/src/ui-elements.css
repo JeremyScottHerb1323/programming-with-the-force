@@ -39,4 +39,10 @@
     width: 24%;
     padding: 22px 0 12px 54px; }
 
+.mfalcon {
+  min-height: 82em;
+  background-image: url(/images/ui/mfalcon.png);
+  background-repeat: no-repeat;
+  background-position: center center; }
+
 /*# sourceMappingURL=ui-elements.css.map */

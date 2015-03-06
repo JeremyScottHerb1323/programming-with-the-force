@@ -144,4 +144,10 @@
 .darth {
   background-image: url(/images/icons/darth.png); }
 
+.loading-image {
+  width: 145px;
+  height: 131px;
+  display: block;
+  margin: 0 auto; }
+
 /*# sourceMappingURL=icons.css.map */
