@@ -1,11 +1,11 @@
-</section>
-  </div>
-  <footer>
-    <section>
-
-    </section>
-  </footer>
-  <?= get_javascripts() ?>
+        </section>
+      </div>
+    </div>
+    <footer>
+      <section>
+      </section>
+    </footer>
+    <?= get_javascripts() ?>
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>

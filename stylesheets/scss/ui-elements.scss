@@ -22,8 +22,8 @@
   color: #fff;
   min-height: 92em;
   .text-box {
-    margin-top: 12%;
     width: 50%;
+    &.r2 { margin-top: 12%; }
     &.community {
       width: 100%;
       margin-bottom: 4em;
@@ -36,10 +36,27 @@
   }
 }
 
+.mfalcon {
+  min-height: 82em;
+  background-image: url(/images/ui/mfalcon.png);
+  background-repeat: no-repeat;
+  background-position: center 100%;
+}
+
+.userinfo {
+  padding-top: 3em;
+  .repo-title { 
+    padding-top: 1em;
+    font-size: 3em; 
+  }
+}
+
 .git-stats-container {
+  padding-top: 3em;
   ul{
     width: 50%;
     margin: 0 auto;
+    padding-bottom: 3em;
     li {
       float: left;
       width: 24%;
@@ -48,9 +65,10 @@
   }
 }
 
-.mfalcon {
-  min-height: 82em;
-  background-image: url(/images/ui/mfalcon.png);
-  background-repeat: no-repeat;
-  background-position: center center;
+.description-container {
+  background-color: #FFF;
+  opacity: 0.8;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 28em;
 }
