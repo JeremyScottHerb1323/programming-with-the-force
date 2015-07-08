@@ -41,18 +41,18 @@ update_html = () ->
   current_repo = repo_list.items[num]
 
   html_string = "
-     <div class='git-stats-container'>
+     <div class='git-stats-container section'>
         <div class='userinfo cf'>
           <a class='left one-quarter' href='#{current_repo.owner.html_url}'>
             <img src='/images/icons/strooper.png' alt='Repo User'>
-            <p>#{current_repo.owner.login}</p>
+            <h4>#{current_repo.owner.login}</h4>
           </a>
           <a class='left half repo-title' href='#{current_repo.html_url}'>
-            <p>R#{current_repo.name}</p>
+            <h3>#{current_repo.name}</h3>
           </a>
           <a class='left one-quarter' href=''>
             <img src='/images/icons/js-icon.png' alt=''>
-            <p>JavaScript</p>
+            <h4>JavaScript</h4>
           </a>
           </div>
           <div class='git-stats-container'>
@@ -62,9 +62,12 @@ update_html = () ->
               <li class='chewie with-icon-48'>Watchers: #{current_repo.watchers}</li>
             </ul>
             <div class='description-container'>
+              <h4>Description</h4>
               <p class='h4'>#{current_repo.description}</p>
             </div>
-          </div>  
+          </div> 
+    <div id='yoda' class='clearfix'>
+            <h5><a class='get_repo' href='#getRepo'>Check out some other Star Wars projects</a></h5>
         </div>
   "
   $('.repo-content').html html_string

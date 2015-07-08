@@ -5,10 +5,6 @@
     <p class="theading">Why not use the force and develop on one of the many Star Wars github projects and gain programming experience by working on something you love!</p>
     
     <div class="repo-content">
-      <img class="loading-image" src="/images/ui/loading.gif" alt="Loading Starwars Repo">Loading Starwars Repo
-    </div>
-    
-    <h5><a class="get_repo" href="#getRepo">Check out some other Star Wars projects</a></h5>
+      <img class="loading-image" src="/images/ui/loading.gif" alt="Loading Starwars Repo">You have made too many calls to Github, you must wait a minute.
   </div>
-  
 </div>

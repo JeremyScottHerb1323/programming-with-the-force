@@ -26,11 +26,16 @@
     .info-container .text-box.community {
       width: 100%;
       margin-bottom: 4em; }
-    .info-container .text-box p {
-      font-size: 1.8em; }
-    .info-container .text-box .t-heading {
+    .info-container .text-box h3 {
       font-family: "sw-heading";
-      font-size: 3.6em; }
+      font-size: 3.5em; }
+    .info-container .text-box p {
+      font-size: 2em; }
+
+.repo-content {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 6em;
+  margin-top: 10em; }
 
 .mfalcon {
   min-height: 82em;
@@ -39,10 +44,17 @@
   background-position: center 100%; }
 
 .userinfo {
-  padding-top: 3em; }
+  padding-top: 3em;
+  font-family: "sw-heading"; }
+  .userinfo a {
+    text-decoration: none;
+    color: #FFF; }
+  .userinfo h3 {
+    font-size: inherit; }
+  .userinfo h4 {
+    font-size: 1.5em; }
   .userinfo .repo-title {
-    padding-top: 1em;
-    font-size: 3em; }
+    padding-top: 1em; }
 
 .git-stats-container {
   padding-top: 3em; }
@@ -53,13 +65,28 @@
     .git-stats-container ul li {
       float: left;
       width: 24%;
-      padding: 22px 0 12px 54px; }
+      padding: 22px 27px 12px 27px; }
 
 .description-container {
   background-color: #FFF;
+  color: #000;
+  font-size: 1.2em;
+  padding: 2em;
   opacity: 0.8;
   width: 80%;
   margin: 0 auto;
   min-height: 28em; }
+  .description-container h4 {
+    margin-bottom: 1em; }
+
+.t-heading {
+  font-size: 3em; }
+
+.get_repo {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF; }
 
 /*# sourceMappingURL=ui-elements.css.map */
