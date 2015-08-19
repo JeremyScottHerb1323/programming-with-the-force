@@ -1,3 +1,11 @@
+/* 
+*******************************************************************
+************** Colors, Fonts and General Aesthetics  **************
+*******************************************************************
+
+HTML
+- All Pages
+*/
 /*========================*\
          TEXT COLOR
 \*========================*/
@@ -34,19 +42,34 @@
 .white-bg {
   background-color: #fff; }
 
+/*========================*\
+          FONTS
+\*========================*/
 @font-face {
   font-family: "sw-logo";
   src: url(/fonts/sw_font.ttf); }
 @font-face {
   font-family: "sw-heading";
   src: url(/fonts/sw_font.ttf); }
+/*========================*\
+     In Page Specific
+\*========================*/
 .sw-logo {
-  padding-top: 28%;
+  margin-top: -26%;
   font-family: "sw-logo";
   font-size: 6.6em;
   text-shadow: -5px 10px rgba(3, 3, 3, 0.5); }
   .sw-logo a {
     color: #FFF;
     text-decoration: none; }
+
+.lt-clear-bg {
+  background-color: #FFF;
+  opacity: 0.8;
+  color: #000;
+  font-size: 1.2em; }
+
+.t-heading {
+  font-size: 3em; }
 
 /*# sourceMappingURL=skins.css.map */

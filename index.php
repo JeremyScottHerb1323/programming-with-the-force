@@ -2,6 +2,10 @@
   require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/functions.php";
   render('header');
 ?>
+<div id="fullpage">
+    <div class="ta-center info-container section">
+      <h1 class="sw-logo"><a href="/">Programming With The Force</a></h1>
+    </div>
 
   <div class="info-container cf full section">
     <div class="left text-box" data-easing="easeinout">

@@ -1,14 +1,14 @@
-/*======================================*\
-  This file is house UI elements
-  for your website or application. Items
-  that help the user use or navigate your
-  site/application
+/* 
+*******************************************************************
+****************** All UI Element Related Styles ******************
+*******************************************************************
 
-  Examples:
-    - Navigation
-    - Logos, headers
-    - Dropdown menus
-\*======================================*/
+General items, images, anchors, dropdowns, etc.
+
+HTML
+- All Pages
+
+*/
 .sw-bg {
   background: url(/images/ui/sw-bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -32,61 +32,10 @@
     .info-container .text-box p {
       font-size: 2em; }
 
-.repo-content {
-  background-color: rgba(255, 255, 255, 0.5);
-  padding-bottom: 6em;
-  margin-top: 10em; }
-
 .mfalcon {
   min-height: 82em;
   background-image: url(/images/ui/mfalcon.png);
   background-repeat: no-repeat;
   background-position: center 100%; }
-
-.userinfo {
-  padding-top: 3em;
-  font-family: "sw-heading"; }
-  .userinfo a {
-    text-decoration: none;
-    color: #FFF; }
-  .userinfo h3 {
-    font-size: inherit; }
-  .userinfo h4 {
-    font-size: 1.5em; }
-  .userinfo .repo-title {
-    padding-top: 1em; }
-
-.git-stats-container {
-  padding-top: 3em; }
-  .git-stats-container ul {
-    width: 50%;
-    margin: 0 auto;
-    padding-bottom: 3em; }
-    .git-stats-container ul li {
-      float: left;
-      width: 24%;
-      padding: 22px 27px 12px 27px; }
-
-.description-container {
-  background-color: #FFF;
-  color: #000;
-  font-size: 1.2em;
-  padding: 2em;
-  opacity: 0.8;
-  width: 80%;
-  margin: 0 auto;
-  min-height: 28em; }
-  .description-container h4 {
-    margin-bottom: 1em; }
-
-.t-heading {
-  font-size: 3em; }
-
-.get_repo {
-  display: block;
-  width: 100%;
-  text-align: center;
-  text-decoration: none;
-  color: #FFF; }
 
 /*# sourceMappingURL=ui-elements.css.map */

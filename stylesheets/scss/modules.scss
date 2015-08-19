@@ -1,0 +1,70 @@
+/* 
+*******************************************************************
+************** Repository information related styles **************
+*******************************************************************
+
+HTML
+- index.php
+- includes/_repo-list.php
+
+JS
+- base.coffee
+-- This is where most of the data is being generated and replacing what is in the static file
+*/
+
+.repo-content {
+  background-color: rgba(255,255,255,0.5);
+  padding-bottom: 6em;
+  margin-top: 10em;
+}
+
+.userinfo {
+  padding-top: 3em;
+  font-family: "sw-heading";
+  a { text-decoration: none; color: #FFF; }
+  h3 { font-size: inherit; }
+  h4 { font-size: 1.5em; }
+  .repo-title { 
+    padding-top: 1em;
+  }
+}
+
+.git-stats-container {
+  padding-top: 3em;
+  ul{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 3em;
+    li {
+      float: left;
+      width: 24%;
+      padding: 22px 27px 12px 27px;
+    }
+  }
+}
+
+.description-container {
+  position: relative;
+  padding: 2em;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 28em;
+  .repo-head-container {
+    height: 8em;
+  }
+  h4 { margin-bottom: 1em; }
+  h5 { 
+    position: absolute;
+    bottom: 1em;
+    &.issues { left: 1em; }
+    &.updated-at { right: 1em; } 
+  }
+}
+
+.get_repo {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+}

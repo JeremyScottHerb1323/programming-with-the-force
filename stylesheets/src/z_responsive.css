@@ -1,3 +1,13 @@
+/* 
+*******************************************************************
+******************** Responsive Media Queries *********************
+*******************************************************************
+
+Place your responsive styles here
+Highest Width: 1100px;
+Lowest Width: 320px;
+
+*/
 @media screen and (max-width: 1024px) {
   .landscape-show {
     display: block; }

@@ -1,3 +1,13 @@
+/* 
+*******************************************************************
+************** Colors, Fonts and General Aesthetics  **************
+*******************************************************************
+
+HTML
+- All Pages
+*/
+
+
 @import "mixins";
 
 /*========================*\
@@ -20,7 +30,9 @@
 .white-bg   { background-color: $white; }
 
 
- //Fonts
+/*========================*\
+          FONTS
+\*========================*/
 @font-face {
   font-family: "sw-logo";
   src: url(/fonts/sw_font.ttf);
@@ -31,8 +43,11 @@
   src: url(/fonts/sw_font.ttf);
 }
 
+/*========================*\
+     In Page Specific
+\*========================*/
 .sw-logo {
-	padding-top: 28%;
+	margin-top: -26%;
 	font-family: "sw-logo";
 	font-size: 6.6em;
 	text-shadow: -5px 10px rgba(3,3,3,0.5);
@@ -41,3 +56,12 @@
 		text-decoration: none;
 	}
 }
+
+.lt-clear-bg { 
+    background-color: #FFF;
+    opacity: 0.8;
+    color: #000;
+    font-size: 1.2em;
+ }
+
+ .t-heading { font-size: 3em; }

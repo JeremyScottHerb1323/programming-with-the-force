@@ -3,14 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Jeremy Herb -- Web Dev/App Dev -- @jeremyherb1
 
 # THANKS
 
-    <name>
+    Syync, Keith Raymond for boilerplate
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     jQuery, Modernizr,
     SASS, CoffeeScript
+    GitHub API V3, FullPage Scroll JS

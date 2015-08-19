@@ -16,9 +16,5 @@
   <!--[if lt IE 8]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-  <div id="fullpage">
-    <div class="ta-center info-container">
-      <h1 class="sw-logo"><a href="/">Programming With The Force</a></h1>
-    </div>
   <div id="content">
     <section>

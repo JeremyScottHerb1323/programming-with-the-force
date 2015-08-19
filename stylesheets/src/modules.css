@@ -1,3 +1,68 @@
+/* 
+*******************************************************************
+************** Repository information related styles **************
+*******************************************************************
 
+HTML
+- index.php
+- includes/_repo-list.php
+
+JS
+- base.coffee
+-- This is where most of the data is being generated and replacing what is in the static file
+*/
+.repo-content {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 6em;
+  margin-top: 10em; }
+
+.userinfo {
+  padding-top: 3em;
+  font-family: "sw-heading"; }
+  .userinfo a {
+    text-decoration: none;
+    color: #FFF; }
+  .userinfo h3 {
+    font-size: inherit; }
+  .userinfo h4 {
+    font-size: 1.5em; }
+  .userinfo .repo-title {
+    padding-top: 1em; }
+
+.git-stats-container {
+  padding-top: 3em; }
+  .git-stats-container ul {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 3em; }
+    .git-stats-container ul li {
+      float: left;
+      width: 24%;
+      padding: 22px 27px 12px 27px; }
+
+.description-container {
+  position: relative;
+  padding: 2em;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 28em; }
+  .description-container .repo-head-container {
+    height: 8em; }
+  .description-container h4 {
+    margin-bottom: 1em; }
+  .description-container h5 {
+    position: absolute;
+    bottom: 1em; }
+    .description-container h5.issues {
+      left: 1em; }
+    .description-container h5.updated-at {
+      right: 1em; }
+
+.get_repo {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF; }
 
 /*# sourceMappingURL=modules.css.map */
