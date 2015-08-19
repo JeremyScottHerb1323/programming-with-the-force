@@ -1,0 +1,45 @@
+/* 
+*******************************************************************
+****************** All UI Element Related Styles ******************
+*******************************************************************
+
+General items, images, anchors, dropdowns, etc.
+
+HTML
+- All Pages
+
+*/
+
+.sw-bg {
+	background: url(/images/ui/sw-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.info-container {
+  color: #fff;
+  min-height: 92em;
+  .text-box {
+    width: 50%;
+    &.r2 { margin-top: 12%; }
+    &.community {
+      width: 100%;
+      margin-bottom: 4em;
+    }
+    h3 {
+        font-family: "sw-heading";
+        font-size: 3.5em;
+      } 
+    p { font-size: 2em; }
+  }
+}
+
+.mfalcon {
+  min-height: 82em;
+  background-image: url(/images/ui/mfalcon.png);
+  background-repeat: no-repeat;
+  background-position: center 100%;
+}
